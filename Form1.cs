@@ -102,7 +102,7 @@ namespace CS_TinhHT
             }
             if (chkDT.Checked)
             {
-                double S = TinhP(r);
+                double S = TinhS(r);
                 thongbao = thongbao + "-S = " + Convert.ToString(S) + Environment.NewLine;
             }
             if (thongbao.Length > 0)
