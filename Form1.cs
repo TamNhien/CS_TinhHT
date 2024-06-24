@@ -23,7 +23,7 @@ namespace CS_TinhHT
         }
 
         double TinhS(double r) { return r * r * Math.PI; }
-        double TinhP(double r) { return 2 * Math.PI; }
+        double TinhP(double r) { return 2 * Math.PI * r; }
 
 
         private void btnTinh_Click(object sender, EventArgs e)
